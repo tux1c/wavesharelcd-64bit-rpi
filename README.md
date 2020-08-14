@@ -12,7 +12,7 @@ Guide is written for 3.5 inch screen but could be adapted for any screen.
 
 # Troubleshooting
 ## White screen on boot (raspberry pi boots)
-make sure dtoverlay=vc4-fkms-v3d is **NOT** present / commented out in /boot/config.txt
+make sure `dtoverlay=vc4-fkms-v3d` is **NOT** present / commented out in `/boot/config.txt`
 
 # Adapting for other LCDs
 1. clone https://github.com/swkim01/waveshare-dtoverlays
