@@ -4,7 +4,7 @@
 rm -rf /etc/X11/xorg.conf.d/40-libinput.conf
 mkdir -p /etc/X11/xorg.conf.d
 cp -rf ./99-calibration.conf  /etc/X11/xorg.conf.d/99-calibration.conf
-cp -rf ./99-fbturbo.conf  /etc/X11/xorg.conf.d/99-fbturbo.conf
+cp -rf ./99-fbdev.conf  /etc/X11/xorg.conf.d/99-fbdev.conf
 
 # load module on boot
 cp ./waveshare35a.dtbo /boot/overlays/
